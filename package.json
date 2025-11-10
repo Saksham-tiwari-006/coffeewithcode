@@ -3,13 +3,17 @@
   "version": "1.0.0",
   "description": "learning backend for playing video",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "saksham",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
